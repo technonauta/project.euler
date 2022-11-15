@@ -1,21 +1,20 @@
 Algoritmo "problem=3"
 //
-// Descrição   : https:::projecteuler.net/problem=3
-//               Números Primos
+// DescriÃ§Ã£o   : https:::projecteuler.net/problem=3
+//               NÃºmeros Primos
 // Autor(a)    : Fabiola
 // Data atual  : 06-11-2022
 //
 //  13195 - 5 7 13 29
-//  600851475143
-// 71 . 839 . 1471 . 6857
+// teste
 Var
          n, valor: real
          cont, m, conttt, mult,r,p:inteiro
 
-
+// AINDA COM PROBLEMAS PARA OPERAR O NUMERO GIGANTESCO
 Inicio
 
-      escreva("Informe um número inteiro: ")
+      escreva("Informe um nÃºmero inteiro: ")
       leia(n)
       escreva("")
       escreva("limite de tentativas: ")
@@ -43,7 +42,6 @@ Inicio
           escreval("valores :", valor)
 
           fimse
-
 
       fimpara
       
