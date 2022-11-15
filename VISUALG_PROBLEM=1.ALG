@@ -1,7 +1,7 @@
 Algoritmo "problem=1"
 // 
 //  
-// Descrição   : https:::projecteuler.net/problem=1
+// DescriÃ§Ã£o   : https:::projecteuler.net/problem=1
 // Autor(a)    : Fabiola
 // Data atual  : 05-11-2022
 //
@@ -13,11 +13,11 @@ Var
 
 
 Inicio
-   escreval("Qual a soma dos multiplos de 3 e 5 até abaixo de 1000? ")
+   escreval("Qual a soma dos multiplos de 3 e 5 atÃ© abaixo de 1000? ")
    leia(N3)
 
    soma3<-0
-   para i de 1 até 333 faca
+   para i de 1 atÃ© 333 faca
            vet3[i] <- N3*i
            se vet3[i]%5 <>0 entao
             soma3 <- soma3 + vet3[i]
@@ -27,11 +27,11 @@ Inicio
    escreval("resultado 3", soma3)
 
 
-   escreval("Qual a soma dos multiplos de 3 e 5 até abaixo de 1000? ")
+   escreval("Qual a soma dos multiplos de 3 e 5 atÃ© abaixo de 1000? ")
    leia(N5)
 
    soma5<-0
-   para i de 1 até 199 faca
+   para i de 1 atÃ© 199 faca
            vet5[i] <- N5*i
            soma5 <- soma5 + vet5[i]
    fimpara
@@ -49,7 +49,7 @@ Fimalgoritmo
 Algoritmo "problem=1"
 //
 //
-// Descrição   : https:::projecteuler.net/problem=1
+// DescriÃ§Ã£o   : https:::projecteuler.net/problem=1
 // Autor(a)    : Fabiola
 // Data atual  : 05-11-2022
 //
