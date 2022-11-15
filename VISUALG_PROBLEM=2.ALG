@@ -1,7 +1,7 @@
 Algoritmo "problem=2"
 //
 //
-// Descrição   : https:::projecteuler.net/problem=2
+// DescriÃ§Ã£o   : https:::projecteuler.net/problem=2
 // Fibonacci
 // Autor(a)    : Fabiola
 // Data atual  : 05-11-2022
@@ -21,15 +21,11 @@ Inicio
           v1<-v2
           v2<-v3
 
-//          escreval(v3, "   fibonacci   ")
-
            se (v3%2=0) entao
               sum<-sum+v3
            fimse
 
-//          cont<-cont+1
-
-        fimenquanto
+fimenquanto
         
         escreva(sum, "   soma total")
         
